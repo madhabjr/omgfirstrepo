@@ -9,11 +9,12 @@ import android.view.SurfaceView;
 @SuppressLint("ViewConstructor")
 public class GameView extends SurfaceView implements Runnable {
 
+
     private Thread thread;
     private boolean isPlaying;
     private final int screenX;
     private final int screenY;
-    private float screenRatioX, screenRatioY;
+    public static float screenRatioX, screenRatioY;
     private Paint paint;
     private Background background1, background2;
 

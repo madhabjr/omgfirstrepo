@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.graphics.Point;
 import android.os.Bundle;
 import android.view.WindowManager;
-
+ // after creating bullet class uncomment line 86 in flight class
 public class GameActivity extends AppCompatActivity {
 
     private GameView gameView;
@@ -36,4 +36,3 @@ public class GameActivity extends AppCompatActivity {
         gameView.resume();
     }
 }
-
